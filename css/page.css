@@ -10,15 +10,19 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 }
-.page-1{ background-image: url(../img/one.png);}
-.page-2{ background-image: url(../img/two.png);}
-.page-3{ background-image: url(../img/three.png);}
-.page-4{ background-image: url(../img/four.png);}
-.page-5{ background-image: url(../img/five.png);}
-.page-6{ background-image: url(../img/six.png);}
-.page-7{ background-image: url(../img/seven.png);}
-.page-8{ background-image: url(../img/eight.png);}
-.page-9{ background-image: url(../img/eight.png);}
+/*.page-1{ background-image: url(../img/one.png);}*/
+/*.page-2{ background-image: url(../img/two.png);}*/
+/*.page-3{ background-image: url(../img/three.png);}*/
+/*.page-4{ background-image: url(../img/four.png);}*/
+/*.page-5{ background-image: url(../img/five.png);}*/
+/*.page-6{ background-image: url(../img/six.png);}*/
+/*.page-7{ background-image: url(../img/seven.png);}*/
+/*.page-8{ background-image: url(../img/eight.png);}*/
+/*.page-9{ background-image: url(../img/eight.png);}*/
+.page img{
+    width: 100%;
+    height: 100%;
+}
 .q{
     width: 80%;
     height:12rem;
