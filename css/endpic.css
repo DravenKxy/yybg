@@ -60,6 +60,18 @@ font-size: 1.2em;}
 	font-size: 0.22rem;
 	text-align: center;
 	bottom: 1rem;
+    animation: rflash .5s;
+}
+
+@keyframes rflash {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 1rem;
+        opacity: 1;
+    }
 }
 .w{
 	position: absolute;
@@ -86,14 +98,17 @@ font-size: 1.2em;}
 	left: 0.5rem;
 	height:1rem;
 	width:80%;
+    animation:rflash 3s;
 	/*background-color: red;*/
 }
+
 .r img{
 	width: 100%;
 	height:auto;
 }
-.t{
 
+.t{
+    animation:rflash 5s;
 	position: absolute;
 	top: 3.7rem;
 	left: 0.5rem;
@@ -106,7 +121,7 @@ font-size: 1.2em;}
 	height:auto;
 }
 .y{
-
+    animation:rflash 7s;
 	position: absolute;
 	top: 5.4rem;
 	left: 0.5rem;
@@ -118,7 +133,7 @@ font-size: 1.2em;}
 	width: 100%;
 	height:auto;
 }
-.u{
+.u{animation:rflash 9s;
 	position: absolute;
 	top: 7.1rem;
 	left:0.5rem;
@@ -136,32 +151,66 @@ font-size: 1.2em;}
 	left: 1.4rem;
 	height:1rem;
 	width:60%;
+    animation: iflash 1s;
 }
 .i img{
 	width: 100%;
 	height:auto;
 }
+@keyframes iflash {
+    0%{
+        top: 0;
+        opacity: 0;
+    }
+    100%{
+        top: 2rem;
+        opacity: 1;
+    }
+}
 .i1{
 	position: absolute;
-	top: 5rem;
+	top: 5.5rem;
 	left: 1.4rem;
 	height:1rem;
 	width:60%;
+    animation: i1flash 1s;
 }
+
 .i1 img{
 	width: 100%;
 	height:auto;
 }
+@keyframes i1flash {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
 .i2{
 	position: absolute;
-	top:8rem;
+	bottom:3.2rem;
 	left: 1.4rem;
 	height:1rem;
 	width:60%;
+    animation: i2flash 1s;
 }
 .i2 img{
 	width: 100%;
 	height:auto;
+}
+@keyframes i2flash {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom:3.2rem ;
+        opacity: 1;
+    }
 }
 .zhu{
 	position: absolute;
@@ -169,39 +218,73 @@ font-size: 1.2em;}
 	left:15%;
 	height:1rem;
 	width:70%;
+    animation: zhuflash 1s;
 }
 .zhu img{
 	width: 100%;
 	height: auto;
 }
+@keyframes zhuflash {
+    0%{
+       left: -15%;
+        opacity: 0;
+    }
+    100%{
+        left:15%;
+        opacity: 1;
+    }
+}
 .circle{
 	position: absolute;
 	top:7.5rem;
-	left:20%;
+	right:20%;
 	height:1rem;
 	width:60%;
+    animation: circleflash 1s;
 }
 .circle img{
 	width: 100%;
 	height: auto;
 }
+@keyframes circleflash {
+    0%{
+        right: -20%;
+        opacity: 0;
+    }
+    100%{
+        right:20%;
+        opacity: 1;
+    }
+}
 .zhu2{
 	position: absolute;
 	top:3.5rem;
-	left:10%;
+	left:15%;
 	height:1rem;
-	width:80%;
+	width:70%;
+    animation: zhu2flash 1s;
 }
 .zhu2 img{
 	width: 100%;
 	height: auto;
 }
+@keyframes zhu2flash {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
 .fen{
 	position: absolute;
 	top:2.5rem;
-	left:10%;
+	left:15%;
 	height:1rem;
-	width:80%;
+	width:70%;
+    animation: zhu2flash 1s;
 }
 .fen img{
 	width: 100%;
