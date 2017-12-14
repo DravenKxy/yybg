@@ -156,6 +156,10 @@ font-size: 1.2em;}
 }
 
 .t{
+    -moz-animation: rflash 5s;
+    -ms-animation:rflash 5s;
+    -o-animation: rflash 5s;
+    -webkit-animation: rflash 5s;
     animation:rflash 5s;
 	position: absolute;
 	top: 3.7rem;
