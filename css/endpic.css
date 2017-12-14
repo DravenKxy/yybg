@@ -77,6 +77,46 @@ font-size: 1.2em;}
         opacity: 1;
     }
 }
+@-moz-keyframes rflash {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 1rem;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes rflash {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 1rem;
+        opacity: 1;
+    }
+}
+@-ms-keyframes rflash {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 1rem;
+        opacity: 1;
+    }
+}
+@-o-keyframes rflash {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 1rem;
+        opacity: 1;
+    }
+}
 .w{
 	position: absolute;
 	width: 100%;
@@ -188,6 +228,46 @@ font-size: 1.2em;}
         opacity: 1;
     }
 }
+@-moz-keyframes iflash {
+    0%{
+        top: 0;
+        opacity: 0;
+    }
+    100%{
+        top: 2rem;
+        opacity: 1;
+    }
+}
+@-ms-keyframes iflash {
+    0%{
+        top: 0;
+        opacity: 0;
+    }
+    100%{
+        top: 2rem;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes iflash {
+    0%{
+        top: 0;
+        opacity: 0;
+    }
+    100%{
+        top: 2rem;
+        opacity: 1;
+    }
+}
+@-o-keyframes iflash {
+    0%{
+        top: 0;
+        opacity: 0;
+    }
+    100%{
+        top: 2rem;
+        opacity: 1;
+    }
+}
 .i1{
 	position: absolute;
 	top: 5rem;
@@ -206,6 +286,46 @@ font-size: 1.2em;}
 	height:auto;
 }
 @keyframes i1flash {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
+@-moz-keyframes i1flash {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
+@-ms-keyframes i1flash {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
+@-o-keyframes i1flash {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes i1flash {
     0%{
         transform: scale(0,0);
         opacity: 0;
@@ -241,6 +361,46 @@ font-size: 1.2em;}
         opacity: 1;
     }
 }
+@-moz-keyframes i2flash {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom:3.2rem ;
+        opacity: 1;
+    }
+}
+@-ms-keyframes i2flash {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom:3.2rem ;
+        opacity: 1;
+    }
+}
+@-o-keyframes i2flash {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom:3.2rem ;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes i2flash {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom:3.2rem ;
+        opacity: 1;
+    }
+}
 .zhu{
 	position: absolute;
 	top:2.5rem;
@@ -260,6 +420,46 @@ font-size: 1.2em;}
 @keyframes zhuflash {
     0%{
        left: -15%;
+        opacity: 0;
+    }
+    100%{
+        left:15%;
+        opacity: 1;
+    }
+}
+@-moz-keyframes zhuflash {
+    0%{
+        left: -15%;
+        opacity: 0;
+    }
+    100%{
+        left:15%;
+        opacity: 1;
+    }
+}
+@-ms-keyframes zhuflash {
+    0%{
+        left: -15%;
+        opacity: 0;
+    }
+    100%{
+        left:15%;
+        opacity: 1;
+    }
+}
+@-o-keyframes zhuflash {
+    0%{
+        left: -15%;
+        opacity: 0;
+    }
+    100%{
+        left:15%;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes zhuflash {
+    0%{
+        left: -15%;
         opacity: 0;
     }
     100%{
@@ -293,6 +493,46 @@ font-size: 1.2em;}
         opacity: 1;
     }
 }
+@-moz-keyframes circleflash {
+    0%{
+        right: -20%;
+        opacity: 0;
+    }
+    100%{
+        right:20%;
+        opacity: 1;
+    }
+}
+@-ms-keyframes circleflash {
+    0%{
+        right: -20%;
+        opacity: 0;
+    }
+    100%{
+        right:20%;
+        opacity: 1;
+    }
+}
+@-o-keyframes circleflash {
+    0%{
+        right: -20%;
+        opacity: 0;
+    }
+    100%{
+        right:20%;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes circleflash {
+    0%{
+        right: -20%;
+        opacity: 0;
+    }
+    100%{
+        right:20%;
+        opacity: 1;
+    }
+}
 .zhu2{
 	position: absolute;
 	top:3.5rem;
@@ -310,6 +550,46 @@ font-size: 1.2em;}
 	height: auto;
 }
 @keyframes zhu2flash {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
+@-moz-keyframes zhu2flash {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
+@-ms-keyframes zhu2flash {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
+@-o-keyframes zhu2flash {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes zhu2flash {
     0%{
         transform: scale(0,0);
         opacity: 0;
