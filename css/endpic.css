@@ -341,7 +341,7 @@ font-size: 1.2em;}
 }
 .i2{
 	position: absolute;
-	top:8.5rem;
+	top:8.2rem;
 	left: 1.4rem;
 	height:1rem;
 	width:60%;
@@ -357,11 +357,11 @@ font-size: 1.2em;}
 }
 @keyframes i2flash {
     0%{
-        bottom: 0;
+        top: 0;
         opacity: 0;
     }
     100%{
-        bottom:3.2rem ;
+        top: 8.2rem;
         opacity: 1;
     }
 }
@@ -605,10 +605,10 @@ font-size: 1.2em;}
 }
 .fen{
 	position: absolute;
-	top:2.5rem;
-	left:15%;
+	top:2.2rem;
+	left:20%;
 	height:1rem;
-	width:70%;
+	width:60%;
     -webkit-animation: zhu2flash 1s;
     -moz-animation: zhu2flash 1s;
     -ms-animation: zhu2flash 1s;
